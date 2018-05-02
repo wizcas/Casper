@@ -8,12 +8,13 @@
     --purple: #ad26b4;
     --yellow: #fecd35;
     --red: #f05230;
-    --darkgrey: #15171A;
-    --midgrey: #738a94;
+    --darkgrey: #2c443c;
+    --midgrey: #4a514f;
     --lightgrey: #c5d2d9;
     --whitegrey: #e5eff5;
     --pink: #fa3a57;
     --brown: #a3821a;
+    --lightbg: #f8ebee;
 }
 
 /* Reset
@@ -288,7 +289,7 @@ body {
     font-style: normal;
     letter-spacing: 0;
     text-rendering: optimizeLegibility;
-    background: #fff;
+    background:color(var(--lightbg));
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;

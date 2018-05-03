@@ -35,7 +35,11 @@
             {{/foreach}}
             </ul>
 
-            <span class="reading-time">{{reading_time}}</span>
+            <span class="reading-time">{{reading_time}}</span>            
+            <span class="reading-time">
+                <span class="icon-comment">{{> "icons/bubble"}}</span>
+                <span class="disqus-comment-count" data-disqus-identifier="ghost-{{comment_id}}">Comments</span>
+            </span>
 
         </footer>
     </div>
